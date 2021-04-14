@@ -23,12 +23,6 @@ main {
   background-color: #eee;
 }
 
-@media screen and (max-width: 768px) {
-  .step-box {
-    display: block;
-  }
-}
-
 .step-box:last-child {
   margin-right: 0;
 }
@@ -70,4 +64,49 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .step-box {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .step-box:last-child {
+    width: 100%;
+  }
+
+  .step-img1 {
+    width: 100%;
+  }
+
+  .step-img2 {
+    width: 100%;
+  }
+
+  .step-img3 {
+    width: 100%;
+  }
+
+  .step-num {
+    width: 100%;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
